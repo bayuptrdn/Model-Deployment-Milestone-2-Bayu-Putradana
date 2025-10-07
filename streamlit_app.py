@@ -7,7 +7,7 @@ with st.sidebar:
     st.title("Weather Prediction App")
     st.markdown("---")
 
-    page = st.radio("Pilih Halaman:", ("EDA", "Model Demo"))
+    page = st.radio("Page Selection:", ("EDA", "Rain Prediction"))
 
     st.markdown("---")
     st.subheader("About Application")
